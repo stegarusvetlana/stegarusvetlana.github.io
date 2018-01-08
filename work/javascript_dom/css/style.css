@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+    
+    
+    
+body{
+    background: #f3f7f9;
+    font-family: "Open Sans",sans-serif;;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+
+}
+.container {
+    border-radius: 5px;
+    background-color: #C4F0F1;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    height: 520px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.box{
+    width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left{
+    float:left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.bif{
+    padding-right: 20px;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.box{
+    width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.container input{
+    border-radius:5px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button] {
+    background-color: #3E7778;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3E7778;
+}
+
+#subject{
+    height:200px;
+}
+
+.submit{
+    float:right;
+}
+.border-red{
+    border:solid 1px red !important; 
+}
+
+#confirmation-banner{
+    display: none;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+    color:green;
+    border:1px solid green;
+    border-radius: 5px;
+}
+
+.show{
+    display:block !important; 
+}

@@ -1,0 +1,136 @@
+*{
+	box-sizing:border-box;
+}
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Avenir Next",Arial,sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+h2 {
+    color: #4A4A4A;
+    font-size: 32px;
+    font-family: "AvenirNext-Regular",Arial,sans-serif;
+    text-align:center;
+    font-weight:normal;
+    margin:50px;
+    margin-bottom:40px;
+    clear:left;
+}
+
+h4 {
+    color: #4A4A4A;
+    font-size: 16px;
+    font-family: "Avenir Next",Arial,sans-serif;
+    text-transform:uppercase;
+}
+
+p {
+    color: #8C8C8C;
+    font-size: 20px;
+    font-family: "AvenirNext-Regular",Arial,sans-serif;
+}
+
+.lista p {
+    font-size: 16px;
+}
+
+.header {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 385px;
+    background-color: green;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.header p {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.lista div{
+	float:left;
+	width: 33.33%;
+	text-align:center;
+	padding:50px;
+	padding-top:0px;
+}
+.lista{
+	 width:100%;
+}
+
+.contact{
+	background:#F5F5F5;
+	width:100%;
+	float:left;
+	height:205px;
+	text-align:center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.contact p{
+	font-size:18px;
+	color:#9B9B9B;
+	padding-left:30px;
+	padding-right:30px;
+
+}
+.box {
+	width:630px;
+	 margin-left: auto ;
+  margin-right: auto ;
+}
+.box h2{
+	margin-bottom:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.footer p{
+	text-align:center;
+	color:#959595;
+	font-size:16px;
+
+}
+.footer{
+	padding-top:30px;
+	padding-bottom:30px;
+	
+	clear:left;
+
+}
+.work{
+    text-align:center;
+    padding-bottom:20px;
+    background-color: #0e1733;
+    clear:left;
+    padding-top:10px;
+    color:white;
+}
+.work ul{
+    list-style-type:none;
+    padding: 0;
+
+}
+.work a{
+    font-size: 16px;
+    font-family: "AvenirNext-Regular",Arial,sans-serif;
+}
+.work h2{
+    color:white;
+    margin:20px;
+    margin-bottom:20px;
+}

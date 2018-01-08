@@ -1,0 +1,67 @@
+/* Implicit. Generale */
+*{
+	box-sizing:border-box;
+}
+body {
+	
+	padding:0;
+	margin:0;
+}
+.rand {
+	width:100%;
+	clear:both;
+	float:left;
+	margin-bottom: 15px;
+}
+.rand div {
+	height: 216px;
+	float:left;
+}
+
+
+/* Dimensiuni */
+.doua-coloane div{
+	width:50%;
+}
+.patru-coloane div{
+	width:25%;
+}
+.o-coloana div{
+	width:100%;
+}
+.trei-coloane div{
+	width:33.33%
+}
+
+
+
+/* Culori */
+.portocaliu {
+	background: #FF7400;
+	
+}
+.verde {
+	background-color:green;
+}
+.rosu {
+	background-color:red;
+}
+
+.gri {
+	background-color:#655B5E;
+}
+.bordo {
+	background-color:#A70606;
+}
+.verziu{
+	background-color:#7F8900;
+}
+.galben {
+	background-color:yellow;
+}
+.albastru {
+	background-color:blue;
+}
+.mov {
+	background-color:#6A5ADB;
+}

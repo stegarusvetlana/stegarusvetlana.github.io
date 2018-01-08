@@ -1,0 +1,214 @@
+/*Globale*/
+*{
+	box-sizing: border-box; /*am redefinit cum functioneaza box model*/
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color:#1F85F7;
+}
+
+.button-large {
+	background:#1F85F7;
+	color:white;
+	padding-top:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	border-radius:5px;
+	font-size:16px;
+	display:inline-block;
+}
+
+.button-small {
+	background:#1F85F7;
+	color:white;
+	padding:5px 10px;
+	border-radius:5px;
+	font-size:12px;
+	display:inline-block;
+}
+
+
+.page-width {
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header	{
+	background: #363A3F;
+	height: 50px;
+}
+
+.header .logo {
+	color: #fff;
+	padding-top: 15px;
+	display: inline-block;
+}
+
+
+
+/*Navigare*/
+.menu {
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	display: inline
+}
+
+.menu ul li a {
+	color: grey;
+	padding-left: 15px;
+}
+
+.menu ul li a:hover {
+	color: #fff;
+}
+
+.menu ul li a.selected {
+	color: #fff;
+}
+
+/*Business-description*/
+.business-info{
+	padding-top: 15px;
+	position:relative;
+}
+
+.business-info img{
+	border-radius:5px;
+}
+
+.business-info .description{
+	float:right;
+	width:270px;
+}
+h4 {
+	font-size:30px;
+	line-height:120%;
+	margin:0;
+}
+.description p{
+	line-height:150%;
+	font-size:18px;
+	margin:0;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.important-info {
+	margin-top: 15px;
+	background: #878E97;
+	border-radius:5px;
+	color:white;
+	text-align:center;
+	padding:15px;
+	margin-bottom: 20px;
+
+}
+ 
+
+/*lista cu carduri */
+
+
+.card {
+	width: 32%;
+	float:left;
+	border:1px solid #F1F1F1;
+	margin-right:2%;
+	border-radius:5px;
+}
+/* selectam fiecare al 3-lea element si anulam margin*/
+.card:nth-child(3n+3){
+	margin-right: 0;
+}
+h6{
+	font-size:20px;
+	margin:0;
+	padding-bottom: 8px;
+}
+.card-content{
+	padding:15px;
+}
+.card-content p{
+	margin:0;
+}
+.card-footer{
+	background: #F7F7F7;
+	border-top:1px solid #ECECEC;
+	height: 40px;
+}
+
+.card-footer .button-small{
+	top: 8px;
+	left:15px;
+	position:relative;
+}
+
+/* imaginile din carduri */
+
+.card-photo img{
+	width: 100%;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+/*footer*/
+.footer{
+	background: #363A3F;
+	float:left;
+	width: 100%;
+	text-align:center;
+	padding:20px;
+	margin-top: 20px;
+}
+
+.footer span{
+	color:white;
+
+}
+
+/* PAGE 2*/
+
+
+/* titlu*/
+
+h1{
+	margin-bottom:0;
+}
+
+h1 span{
+	font-size:24px;
+	font-weight: normal;
+}
+.vers4 .card{
+	width: 23.5%;
+	margin-top: 20px;
+}
+
+.vers4 .card:nth-child(4n){
+	margin-right: 0;
+}
+
+.vers4 .card:nth-child(3n+3){
+	margin-right: 2%;
+}
+
+
