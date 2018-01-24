@@ -1,3 +1,3 @@
 Portfolio of Svetlana Stegaru
 =====
-http://resvus.github.io
+http://stegarusvetlana.github.io
