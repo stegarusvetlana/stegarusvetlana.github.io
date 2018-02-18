@@ -11,13 +11,10 @@ window.onload = function() {
     
 
 	function showHamburgerMenu() {
-		console.log("afisam meniul");
 		overlayMobile.style.display = "block";
-		
 	}
 
 	function hideMenu(){
-		console.log("ascundem");
 		overlayMobile.style.display = "none";
 	}
 }
