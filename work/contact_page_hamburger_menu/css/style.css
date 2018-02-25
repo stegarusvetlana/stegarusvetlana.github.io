@@ -65,7 +65,7 @@ body {
 
 .button {
 	color: white;
-	background-color: #9d7c36;
+	background-color: blue;
 	padding: 10px 22px;
 	font-size: 18px;
 	border-radius: 5px;
@@ -182,7 +182,7 @@ footer {
 footer p {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	border-top: 1px solid #9d7c36;
+	border-top: 1px solid blue;
 	font-size: 14px;
 	color: #000000;
 }
