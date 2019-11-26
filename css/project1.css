@@ -120,15 +120,43 @@ p {
     padding-top:10px;
     color:white;
 }
+
 .work ul{
     list-style-type:none;
     padding: 0;
-
+    display: grid;
+    padding:20px;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.work a{
+
+.work ul li {
+    text-align: center;
+    min-height: 150px;
+    position: relative;
+}
+
+.work a {
     font-size: 16px;
     font-family: "AvenirNext-Regular",Arial,sans-serif;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding:20px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: ease transform 250ms;
 }
+
+.work a:hover {
+    transform: translate(0,-5px);
+}
+
 .work h2{
     color:white;
     margin:20px;
@@ -141,6 +169,10 @@ p {
     }
     .box {
         width: 100%;
+    }
+
+    .work ul {
+        grid-template-columns: 1fr;
     }
 }
 
